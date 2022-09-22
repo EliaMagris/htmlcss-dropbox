@@ -50,7 +50,7 @@ header{
 .img-text{
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .text-left{
@@ -67,10 +67,62 @@ header{
 }
 
 .text-left button{
-    margin: 75px 0;
+    margin: 40px 0;
 }
 
 .text-left i{
     font-size: 50px;
     margin-top: 150px;
+}
+/* FINE HEADER INIZIO MAIN */
+
+.container-center{
+    width: 70%;
+    margin: auto;
+    margin-top: 71px; 
+}
+
+input{
+    height: 20px;
+    width: 20px;
+}
+
+.option-movement{
+    padding-right: 20px;
+}
+
+.option-movement{
+    display: flex;
+    align-items: center;
+}
+
+#options{
+    margin-top: 20px;
+}
+
+.option-left{
+    margin-right: 10px;
+}
+
+.check-option h2{
+    font-size: 2.5rem;
+}
+
+/* DA RIVEDERE */
+
+.payment-option-layout{
+    margin-top: 50px;
+    padding: 10px;
+    flex-basis: 32%;
+    border: 1px solid black;
+}
+
+.payment-info{
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
 }
