@@ -187,4 +187,30 @@ input{
 
 /* FINE UFFICO VENDITE */
 
+.img-text{
+    align-items: center;
+    margin-top: 150px;
+}
 
+.image-partner{
+    flex-basis: 60%;
+}
+
+.image-partner img{
+    width: 100%;
+}
+
+.text-partner{
+    flex-basis: 30%;
+    line-height: 30px;
+}
+
+.text-partner p{
+    padding: 30px 0;
+}
+
+.text-partner button{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
