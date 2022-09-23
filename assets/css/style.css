@@ -37,7 +37,7 @@ header{
     background-color: rgb(0,97,255);
     color: white;
     border: none;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .container-top{
@@ -214,3 +214,31 @@ input{
     border: 1px solid black;
     color: black;
 }
+
+/* FINE TROVA PARTNER */
+
+.options-cards{
+    padding: 30px 0;
+    flex-wrap: wrap;
+}
+
+.item-info h3{
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+
+.image-info{
+    flex-basis: 30%;
+    padding: 20px;
+}
+
+.image-settings{
+    width: 100%;
+}
+
+.operations-dropbox-business h2{
+    margin-top: 200px ;
+    font-size: 35px;
+}
+
+/* FINE OPERAZIONI CON DROPBOX BUSINESS */
