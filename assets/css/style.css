@@ -9,6 +9,10 @@ header{
     background-color: rgb(180,208,231);
 }
 
+main{
+    margin-top: 150px;
+}
+
 .flex-between{
     display: flex;
     justify-content: space-between;
@@ -21,6 +25,7 @@ header{
     display: flex;
     position: fixed;
     top: 0;
+    z-index: 1;
 }
 
 .nav li{
@@ -45,6 +50,8 @@ header{
     margin: auto;
     margin-top: 71px;
     padding: 30px 30px 0 30px;
+    position: relative;
+    top: 90px;
 }
 
 .container-top h1{
@@ -73,7 +80,7 @@ header{
 
 .text-left i{
     font-size: 50px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 /* FINE HEADER INIZIO MAIN */
 
@@ -185,6 +192,9 @@ input{
     line-height: 20px;
 }
 
+.ufficio-vendite-layout{
+    margin-bottom: 70px;
+}
 /* FINE UFFICO VENDITE */
 
 .img-text{
