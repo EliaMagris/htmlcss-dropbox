@@ -138,6 +138,8 @@ input{
 
 .payment-info-logo li{
     margin: 10px 0;
+    text-indent: -10px;
+    padding-left: 1.2em;
 }
 
 .button-selection{
@@ -238,7 +240,57 @@ input{
 
 .operations-dropbox-business h2{
     margin-top: 200px ;
-    font-size: 35px;
+    font-size: 2.5rem;
 }
 
 /* FINE OPERAZIONI CON DROPBOX BUSINESS */
+
+.link-find-client{
+    margin-top: 100px;
+}
+
+.link-find-client h2{
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+}
+
+/* INIZIO BOX COLORATI */
+
+.box-left{
+    flex-wrap: wrap;
+}
+
+.box-green{
+    background-color: rgb(162,211,155);
+    height: 317.13px;
+}
+
+.box-purple{
+    background-color: purple;
+    height: 317.13px;
+}
+
+.box-blue{
+    background-color: blue;
+    height: 317.13px;
+}
+
+.box-red{
+    background-color: red;
+    height: 317.13px;
+}
+
+.container-box-colorati{
+    flex-basis: 33.33%;
+}
+
+.flex-basis{
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-basis img{
+    width: 50%;
+}
+
