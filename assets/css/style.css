@@ -52,7 +52,6 @@ header{
 }
 
 .img-text{
-    margin-top: 70px;
 }
 
 .text-left{
@@ -81,7 +80,6 @@ header{
 .container-center{
     width: 60%;
     margin: auto;
-    margin-top: 71px; 
 }
 
 input{
@@ -191,7 +189,6 @@ input{
 
 .img-text{
     align-items: center;
-    margin-top: 150px;
 }
 
 .image-partner{
@@ -256,41 +253,144 @@ input{
 
 /* INIZIO BOX COLORATI */
 
+.box-colorati-layout{
+    margin-top: 150px;
+}
+
 .box-left{
     flex-wrap: wrap;
+    height: calc(100vw / 3);
 }
 
 .box-green{
     background-color: rgb(162,211,155);
-    height: 317.13px;
+    border: 15px solid rgb(209,233,205);
+    border-style: inset;
 }
 
 .box-purple{
-    background-color: purple;
-    height: 317.13px;
+    background-color: rgb(97,8,43);
 }
 
 .box-blue{
-    background-color: blue;
-    height: 317.13px;
+    background-color: rgb(0,147,206);
 }
 
 .box-red{
-    background-color: red;
-    height: 317.13px;
+    background-color: rgb(255,28,28);
+}
+
+.box-strong-red{
+    background-color: rgb(213,0,31);
+}
+
+.box-cian{
+    background-color: rgb(180,208,231);
+}
+
+.box-strong-blue{
+    background-color: rgb(13,36,129);
+}
+
+.box-strong-yellow{
+    background-color: rgb(255,216,48);
 }
 
 .container-box-colorati{
-    flex-basis: 33.33%;
+    flex-basis: calc(100vw / 3);
 }
 
 .flex-basis{
     flex-basis: 50%;
     display: flex;
     justify-content: center;
+    height: 50%;
 }
 
 .flex-basis img{
     width: 50%;
 }
 
+.box-center-container{
+    background-color: rgb(245,245,245);
+    height: calc(100vw / 3);
+    padding: 40px;
+}
+
+.center-box img{
+    width: 50% ;
+    margin-bottom: 30px;
+}
+
+.box-center-container p{
+    padding: 50px 0;
+}
+
+/* FINE BLOCCHI COLORATI */
+
+.blue-section{
+    background-color: rgb(180,208,231);
+}
+
+.prova-gratuita{
+    padding: 150px 0;
+}
+
+.image-partner{
+    font-size: 2rem;
+    color: rgb(97,8,43);
+}
+
+/* INIZIO DOMANDE FREQUENTI */
+
+section h2{
+    font-size: 40px;
+    padding: 20px 0;
+    margin-top: 120px;
+}
+
+section hr{
+    margin: 40px 0;
+}
+
+.item-section{
+    margin-right: 30px;
+}
+
+#hr-final{
+    margin-bottom: 50px;
+}
+
+/* INIZIO FOOTER */
+
+footer{
+    background-color: black;
+}
+
+.footer-list-layout{
+    color: white;
+}
+
+.footer-list-container{
+    flex-basis: 20%;
+    padding: 20px;
+    padding-left: 80px;
+}
+
+.footer-list-container h3{
+    padding: 20px 0;
+    font-size: 1.5rem;
+}
+
+.footer-list-container li{
+    padding: 10px 0;
+}
+
+footer section{
+    margin-bottom: 50px;
+}
+
+.padding-type{
+    margin-left: 80px;
+    margin: 0;
+}
