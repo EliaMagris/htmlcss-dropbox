@@ -379,6 +379,7 @@ input{
     background-color: rgb(245,245,245);
     height: calc(100vw / 3);
     padding: 40px;
+    overflow: scroll;
 }
 
 .center-box img{
