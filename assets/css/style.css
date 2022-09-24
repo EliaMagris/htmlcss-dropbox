@@ -17,6 +17,27 @@ main{
     display: flex;
     justify-content: space-between;
 }
+/* hover section */
+
+.nav a{
+  color: #333;
+  text-decoration: none;
+  position: relative;
+}
+
+.nav a::after{
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 1px;  
+    transition: all 0.4s;
+}
+
+.nav a:hover::after{
+    width: 100%;
+    background: black;
+}
 
 .nav-bar-container{
     background-color: white;
@@ -28,6 +49,11 @@ main{
     z-index: 1;
 }
 
+button:hover{
+   box-shadow: box-shadow: 0 5px 15px rgba(145, 92, 182, .4);;
+}
+
+/* end hover section */
 .nav li{
     padding: 0 15px;
 }
