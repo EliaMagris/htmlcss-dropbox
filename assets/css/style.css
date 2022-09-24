@@ -104,18 +104,20 @@ input{
 }
 
 #options{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .option-left{
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 .check-option h2{
     font-size: 2.5rem;
 }
 
-/* DA RIVEDERE */
+input{
+    vertical-align: bottom;
+}
 
 .payment-option-layout{
     margin-top: 50px;
@@ -142,9 +144,13 @@ input{
 }
 
 .payment-info-logo li{
-    margin: 10px 0;
+    margin: 30px 0;
     text-indent: -10px;
     padding-left: 1.2em;
+}
+
+.acquista-ora span{
+    margin: 15px 0;
 }
 
 .button-selection{
@@ -166,9 +172,27 @@ input{
     margin: 30px 0;
 }
 
+.payment-info div{
+    color: rgb(129,136,146);
+}
+
+.payment-info h5{
+    margin: 10px 0;
+}
+
+.card-free-trial{
+    width: 100%;
+}
+
+.punti-salienti{
+    text-indent: -10px;
+    padding-left: 1.2em;
+}
+
+.fa-check{
+    color: rgb(0,99,255);
+}
 /* FINE CARDS */
-
-
 
 .ufficio-vendite{
     border: 1px solid rgb(220,220,222);
@@ -239,6 +263,10 @@ input{
 .image-info{
     flex-basis: 30%;
     padding: 20px;
+}
+
+.image-info p{
+    line-height: 20px;
 }
 
 .image-settings{
@@ -375,6 +403,7 @@ section hr{
 
 footer{
     background-color: black;
+    margin-top: 120px;
 }
 
 .footer-list-layout{
@@ -382,9 +411,7 @@ footer{
 }
 
 .footer-list-container{
-    flex-basis: 20%;
-    padding: 20px;
-    padding-left: 80px;
+    flex-basis: 20%;  
 }
 
 .footer-list-container h3{
@@ -401,6 +428,32 @@ footer section{
 }
 
 .padding-type{
-    margin-left: 80px;
-    margin: 0;
+    border: 1px solid rgb(153,153,153);
+    width: 10%;
+    margin-top: 80px;
+}
+
+.container-bottom{
+    width: 80%;
+    margin: auto;
+    padding-left: 140px;
+    padding-top: 80px;
+}
+
+.language-selector{
+    color: rgb(153,153,153);
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.language-selector div{
+    margin-top: 30px;
+}
+
+.fa-earth-americas{
+    margin-right: 10px;
+}
+
+.fa-caret-up{
+    margin-left: 5px;
 }
