@@ -69,6 +69,13 @@ button:hover{
     color: white;
     border: none;
     font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 0 5px 15px rgba(5, 5, 5, 0.4);
+    cursor: pointer;
+    
 }
 
 .container-top{
@@ -82,9 +89,6 @@ button:hover{
 
 .container-top h1{
     font-size: 5rem;
-}
-
-.img-text{
 }
 
 .text-left{
@@ -379,7 +383,7 @@ input{
     background-color: rgb(245,245,245);
     height: calc(100vw / 3);
     padding: 40px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .center-box img{
